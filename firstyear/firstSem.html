@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5a429136c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../ccs-logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>First Sem</title>
+</head>
+<body>
+    <div class="windowOpen">
+        <div></div>
+    </div>
+    <main class="content">
+        <nav>
+            <img src="../ccs-logo.png" alt="">
+            <div class="nav-content">
+                <h1>GRADE CALCULATOR</h1>
+                <h2>Bachelor of Science in Computer Science</h2>
+                <h3>First Year</h3>
+            </div>
+        </nav>
+        <div class="main-container">
+                <h1>First Semester</h1>
+               <span><label>Full Name:</label><input type="text" id="fullName"></span>
+           <div class="box-1">
+            <div class="subjects-content">
+                <label>Introduction to Computing</label> <br>
+                <label>Computer Programming 1</label> <br>
+                <label>Art Appreciation</label> <br>
+                <label>Mathematics in the Modern World</label> <br>
+                <label>Environmental Science</label> <br>
+                <label>Fundamental of Physical Education</label> <br>
+                <label>Civil Welfare Training Services (CWTS)</label><br>
+            </div>
+            <div class="input-content">
+                <input type="number" id="intro-computing" class="grade"> <br>
+                <input type="number" id="prog1" class="grade"><br>
+                <input type="number" id="art" class="grade"><br>
+                <input type="number" id="math" class="grade"><br>
+                <input type="number" id="science" class="grade"><br>
+                <input type="number" id="p.e" class="grade"><br>
+                <input type="number" id="cwts" class="grade"><br>
+                
+                <button id="computeGrade">Compute</button>
+            </div>
+            <div class="content-2">
+                <h2 id="name"></h2>
+                <div id="totalAverage">
+                    <div class="loader" style="display: none;"></div>
+                </div>
+            </div>
+           </div>
+        </div>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>

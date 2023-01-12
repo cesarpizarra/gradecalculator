@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/c5a429136c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="ccs-logo.png">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Grade Calculator</title>
+</head>
+<body>
+    <div class="windowOpen">
+        <div></div>
+    </div>
+    <main class="content">
+        <nav>
+            <img src="ccs-logo.png" alt="">
+            <div class="nav-content">
+                <h1>GRADE CALCULATOR</h1>
+                <h2>Bachelor of Science in Computer Science</h2>
+            </div>
+        </nav>
+        <div class="main-content">
+            <div class="option-content">
+                <h1>Choose what year you are now..</h1>
+                <div class="first">
+                    <input type="radio" onclick="showSemester('firstYear')" name="year"  value="firstYear">
+                    <label>First Year</label>
+                    <div id="option1Radio" class="hidden">
+                        <label><input type="radio" name="year" value="suboption1" id="first-fsem">First Semester</label>
+                        <label><input type="radio" name="year" value="suboption2" id="first-ssem">Second Semester</label>
+                    </div>  
+                </div>
+                <div class="second">
+                    <input type="radio" onclick="showSemester('secondYear')" name="year" value="secondYear">
+                    <label>Second Year</label>
+                    <div id="option2Radio" class="hidden">
+                        <label><input type="radio" name="year" value="suboption1" id="second-fsem">First Semester</label>
+                        <label><input type="radio" name="year" value="suboption2" id="second-ssem">Second Semester</label>
+                    </div> 
+                </div>
+                <div class="third">
+                    <input type="radio" onclick="showSemester('thirdYear')" name="year"  value="thirdYear">
+                    <label>Third Year</label>
+                    <div id="option3Radio" class="hidden">
+                        <label><input type="radio" name="year" value="suboption1" id="third-fsem">First Semester</label>
+                        <label><input type="radio" name="year" value="suboption2" id="third-ssem">Second Semester</label>
+                    </div>
+                </div>
+                <div class="fourth">
+                    <input type="radio" onclick="showSemester('fourthYear')" name="year" value="fourthYear">
+                    <label>Fourth Year</label>
+                    <div id="option4Radio" class="hidden">
+                        <label><input type="radio" name="year" value="suboption1" id="fourth-fsem">First Semester</label>
+                        <label><input type="radio" name="year" value="suboption2" id="fourth-ssem">Second Semester</label>
+                    </div>
+                </div>
+                <button onclick="btnSubmit()">Submit</button>
+            </div>
+        </div>
+        <footer>
+            <div class="icons">
+                <a href="https://web.facebook.com/cesar.pizarra.1/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/cesarpizarra"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.tiktok.com/@cesar_pizarra?fbclid=IwAR0SF9X1OEX53SZEeRsXpxJ43EzWa1GlJx90Q94Ng1LQInZAez7gcjH6xRU"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
+            <div class="footer-line"></div>
+            <small>© 2023 CezaRu all rights reserved</small>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -2,6 +2,7 @@
 
 The Simple Grade Calculator is a web application designed to assist students in the Bachelor of Science in Computer Science program in calculating their semester grades based on the grading system used in their courses.
 
+### This is my simple project when I starting to learn html, css and javascript
 ## Features
 
 - Calculate semester grades based on course grades and credit hours.
